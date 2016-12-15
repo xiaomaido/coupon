@@ -1,0 +1,49 @@
+.logs{
+	padding: 1.3rem 0 2.8rem;
+	width: 92%;
+	margin: 0 auto;
+}
+.logs .log{
+	margin-bottom: 1.8rem;
+}
+.log .create{
+	background-color: #d8d8d8;
+    color: #fff;
+    text-align: center;
+    padding: .3rem 0;
+    width: 8.4rem;
+    margin: 0 auto 1.3rem;
+	border-radius: .35rem;
+	-moz-border-radius: .35rem;
+	-webkit-border-radius: .35rem;
+    font: 500 .75rem/.75rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+.log .info{
+	background-color: #fff;
+	border:1px solid #e95412;
+	padding: .7rem .5rem;
+	border-radius: .3rem;
+	-moz-border-radius: .3rem;
+	-webkit-border-radius: .3rem;
+	padding-bottom: 6rem;
+}
+.log .info .title{
+	color: #0d0d0d;
+	font: 400 1.1rem/1.1rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+	margin-bottom: .7rem;
+}
+.log .info .name{
+	margin-bottom: 1.5rem;
+	text-decoration: line-through;
+    font-size: .8rem;
+    text-align: left;
+	font: 400 .9rem/1.2rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+.log .info .chain{
+    font-size: .8rem;
+    text-align: left;
+    color:#e95412;
+	font: 400 .95rem/.95rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+	margin-bottom: .5rem;
+
+}

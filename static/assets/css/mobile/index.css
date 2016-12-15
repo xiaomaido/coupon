@@ -1,0 +1,208 @@
+/*** 左右轮播滚动 ***/
+
+.slideBox {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+/* 设置焦点图最大宽度 */
+}
+
+.slideBox .hd {
+	position: absolute;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.slideBox .hd ul {
+	display: inline-block;
+    height: 1rem;
+    padding: 0 .4rem;
+    /*padding: .15rem .25rem .35rem;*/
+    background-color: rgba(255,255,255,0.9);
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    border-radius: .2rem;
+    font-size: 0;
+    vertical-align: top;
+}
+.slideBox .hd li {
+	display: inline-block;
+	width: .4rem;
+	height: .4rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #716D6D;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 .15rem;
+}
+
+.slideBox .hd li.on {
+	background: #e95412;
+}
+
+.slideBox .bd {
+	position: relative;
+	z-index: 0;
+}
+
+.slideBox .bd li {
+	position: relative;
+	text-align: center;
+}
+
+.slideBox .bd li img {
+	/*background: url(../../../assets/images/mobile/default.jpg) center center no-repeat;*/
+	vertical-align: top;
+	width: 100%;
+	height: auto;
+}
+
+.slideBox .bd li a {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  /* 去掉链接触摸高亮 */
+.slideBox .bd li .tit {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-indent: .5rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	background: url(images/focusBg.png) repeat-x;
+	color: #fff;
+	text-align: left;
+}
+
+ul.userlist{
+	height: auto;
+	background: #ffffff;
+}
+ul.userlist li{
+    background-color: #fff;
+	width: 100%;
+	display: block;
+    /*padding-bottom: .5rem;*/
+}
+ul.userlist li .userarea{
+	/*height: 5.3rem;*/
+	height: 4.5rem;
+    padding: .7rem;
+}
+ul.userlist li .likearea{
+	width: 100%;
+	height: 1.9rem;
+	background-color: #FAFAFA;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	text-align:center;
+}
+.icon-like-normal, .icon-like-active{
+	width: .9rem;
+	height: .85rem;
+	min-width: .9rem;
+	min-height: .85rem;
+	background: url(../../../../static/images/heart_normal.png) no-repeat;
+    display: inline-block;
+    margin: .55rem auto 0;
+}
+.icon-like-active{
+	background: url(../../../../static/images/heart_active.png) no-repeat;
+}
+ul.userlist li .follow{    
+	position: absolute;
+    right: .7rem;
+	/*width: 4.5rem;*/
+	/*height: 1.3rem;*/
+	/*line-height: 1.3rem;*/
+	padding: 0.25rem .45rem; 
+	color: #fff;
+	/*color: #2893ff;*/
+	text-align: center;
+	/*border: 1px solid #cbcbcb;*/
+	font-size: .7rem;
+	font-weight: 100;
+	/*font-family: "微软雅黑";*/
+	border-radius: .2rem; /* W3C syntax */
+	-moz-border-radius: .2rem; /* Gecko browsers */
+	-webkit-border-radius: .2rem; /* Webkit browsers */
+	background: #F3733B;
+	bottom: .7rem;
+	display: none;
+}
+ul.userlist li .avatar{
+	/*width: 6.1rem;*/
+	width: auto;
+	height: 4.5rem;
+	/*height: 5.3rem;*/
+	float: left;
+	/*border-radius: .25rem; 
+	-moz-border-radius: .25rem; 
+	-webkit-border-radius: .25rem; */
+    background-color: #eeeeee;
+    border: 1px solid #eee;
+    position: absolute;
+}
+.userinfo{
+	float: left;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 6.15rem;
+}
+.sex{
+	width: .85rem;
+	height: auto;
+	float: left;
+    margin: .15rem .5rem 0 .1rem;
+}
+.objname{
+	font-size: .85rem;
+	font-weight: 100;
+	/*font-family: "微软雅黑";*/
+	color: #222;
+	margin-bottom: .1rem;
+}
+.usersepcial{
+	font-size: .7rem;
+	font-weight: 100;
+	/*font-family: "微软雅黑";*/
+	color: #9d9a9a;
+    /*margin: .25rem 0 .35rem;*/
+    height: 2rem;
+    max-height: 2rem;
+    overflow: hidden;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+ul.usertags{
+    overflow: hidden;
+    height: 1.3rem;
+    position: absolute;
+    bottom: 0.3rem;
+}
+ul.usertags li{
+	float: left;
+	width: auto;
+	height: 100%;
+	line-height: 1.3rem;
+	margin-right: .35rem;
+	color: #aeaeae;
+	font-size: .7rem;
+	font-weight: 100;
+	/*font-family: "微软雅黑";*/
+	text-align: center;
+    padding-bottom: 0;
+    background: transparent;
+}
+.desc-tag-img {
+    width: .6rem;
+    height: .6rem;
+    position: relative;
+    top: .33rem;
+}
+

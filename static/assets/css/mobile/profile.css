@@ -1,0 +1,54 @@
+.save-btn{
+	background-color: #e95412;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: .35rem;
+    -moz-border-radius: .35rem;
+    -webkit-border-radius: .35rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.sex{
+    width: 80%;
+    margin: 1rem 10% 0;
+    border: .06rem solid #e95412;
+	color: #a4a4a4 !important;
+    padding: .6rem 0 .6rem 2%;
+    background-color: transparent;
+	font: 400 .9rem/1.12rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+select.valued{
+	font-size: 1rem !important;
+	color: #333 !important;
+}
+input{
+    width: 78%;
+    margin: 1rem 10% 0;
+    padding: .6rem 0 .6rem 2%;
+    border: .06rem solid #e95412;
+    border-radius: .35rem;
+    -moz-border-radius: .35rem;
+    -webkit-border-radius: .35rem;
+	font: 400 1rem/1.12rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+	color: #333 !important;
+}
+::-webkit-input-placeholder {
+	color: #a4a4a4 !important;
+	font: 400 .9rem/1.12rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+:-moz-placeholder {
+	color: #a4a4a4 !important;
+	font: 400 .9rem/1.12rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+::-moz-placeholder {
+	color: #a4a4a4 !important;
+	font: 400 .9rem/1.12rem "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}
+:-ms-input-placeholder {
+	color: #a4a4a4 !important;
+	font: 400 .9rem/1.12 "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei",Sans-serif !important;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title id="tttt">商户详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="商户详情">
+		<meta name="keywords" content="商户详情">
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../static/assets/css/mobile/common.css?vId=160630" />
+		<link rel="stylesheet" href="../../static/assets/css/mobile/shop.css?vId=160923" />
+	</head>
+	<body>
+		<div class="out-wrap">
+			<div class="shop-img j_shop_img" style="background-image: url('../../static/assets/images/mobile/default.jpg');">
+				<div class="rel-box"><div class="shop-slogan j_shop_slogan"></div></div>
+			</div>
+			<div class="thinner-border"></div>
+			<div class="shop-box">
+				<div class="shop-name"></div>
+				<div class="tags"></div>
+			</div>
+			<div class="thinner-border"></div>
+			<ul class="shop-menu j_shop_menu">
+				<li><span class="active">优惠券</span></li>
+				<li><span>福利券</span></li>
+				<li><span>门店分布</span></li>
+				<!-- <li><span>商户活动</span></li> -->
+			</ul>
+			<div class="thinner-border"></div>
+			<div style="margin-bottom: 2.8rem">
+				<ul class="coupons j_tab"></ul>
+				<ul class="coupons j_tab hide"></ul>
+				<!-- <div class="shop-bulletin j_tab"></div> -->
+				<div class="shop-bulletin j_tab"></div>
+			</div>
+			<img style="visibility: hidden;" src="http://ac-fmurifgq.clouddn.com/Y5eVjrUUgHMX9SxG6RP97vhK8TaiGALqOWP8YN7P.png" />
+			<ul class="page-nav" id="page-nav"></ul>
+			
+		</div>
+		<div class="shadow-area j_hide maxWidth"></div>
+		<div class="prop-qrcode-area dialog j_hide pt-page-moveFromBottom" id="j_area" >
+			<div class="close_box j_hide j_dialog" data-value="block"><img class="close" src="../../static/assets/images/mobile/small_close.png"></div>
+			<div class="big-result" style="margin:.7rem 0;">使用优惠券窗口</div>
+			<div class="j_big_verify"></div>
+		</div>
+		<script type="text/javascript" src="../../static/assets/js/mobile/share.js?vId=160630" ></script>
+		<script type="text/javascript" src="../../static/assets/js/mobile/shop.js?vId=160806" ></script>
+		<script type="text/javascript">	
+			loading();
+			$(document).ready(function() {
+				setTimeout(function(){
+					p.init();
+				},500);
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户登录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="用户登录">
+		<meta name="keywords" content="用户登录">
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../static/assets/css/mobile/common.css?vId=160630" />
+		<link rel="stylesheet" href="../../static/assets/css/mobile/sign.css?vId=161215" />
+	</head>
+	<body>
+		<div class="out-wrap">
+			<img class="logo j_switch" data-url="../index/" src="../../static/assets/images/logo.png"/> 
+			<div class="user-form j_form">
+				<div class="username-box">
+				   <label>手机</label>
+					<input type="tel" id="phone" placeholder="请输入手机号码" value="" maxlength="11">
+				</div>
+				<div class="username-box">
+					<label>密码</label>
+					<input type="password" id="pwd" placeholder="请输入登录密码" value="" maxlength="20">
+				</div>
+				<div class="username-box hide">
+					<label>验证码</label>
+					<input type="tel" id="yzm" placeholder="请输入验证码" maxlength="6">
+					<span class="count j_sms"></span>
+				</div>
+				<div class="login-btn j_login_btn">立即登录</div>
+				<div class="login-tips j_switch" data-url="../signup/">第一次逛，点此注册</div>
+			</div>
+			<div class="contact-links">
+				<a class="contact" style="margin-right: 2rem;" href="tel:15001879903">商务合作</a>
+				<a class="contact" href="tel:13248238215">忘记密码</a>
+			</div>
+			<div class="wait-tip j_wait_tip"></div>
+		</div>
+		<script type="text/javascript" src="../../static/assets/js/mobile/share.js?vId=160630" ></script>
+		<script type="text/javascript" src="../../static/assets/js/mobile/sign.js?vId=160630" ></script>
+		<script type="text/javascript">	
+			loading();
+			$(document).ready(function() {
+				setTimeout(function(){
+					loadingHide();
+					p.init();
+				},500);
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人中心</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="个人中心">
+		<meta name="keywords" content="个人中心">
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../static/assets/css/mobile/common.css?vId=160621" />
+		<link rel="stylesheet" href="../../static/assets/css/mobile/me.css?vId=160621" />
+	</head>
+	<body>
+
+		<div class="out-wrap">
+			<div class="member-item mBottom1">
+				<i class="icon-account"></i><div class="member-item-name"><a href="../profile/">个人信息</a></div>
+			</div>
+			<div class="member-item mBottom1">
+				<i class="icon-service"></i><div class="member-item-name"><a href="../log/">用券记录</a></div>
+			</div>
+			<div class="member-item mBottom1">
+				<!-- <i class="icon-kefu"></i><a href="javascript:;"><div class="member-item-name"><a href="../advice/">留言建议</a></div></a> -->
+				<i class="icon-kefu"></i><a href="javascript:;"><div class="member-item-name"><a href="http://m.vcooline.com/app/leaving_messages?aid=2025199&origin_openid=o-xaJjt-cqDMWlqw685PIw27sSuw&wxmuid=36288#mp.weixin.qq.com">留言建议</a></div></a>
+			</div>
+			<div class="member-item mBottom1">
+				<i class="icon-mobile"></i><a href="tel:15001879903"><div class="member-item-name">客服咨询</div></a>
+			</div>
+			<div class="member-item mBottom10">
+				<i class="icon-about" onclick="user.logout();"></i><div class="member-item-name" onclick="user.logout();"><a href="javascript:;">退出</a></div>
+			</div>
+			<ul class="page-nav" id="page-nav"></ul>
+		</div>
+		<script type="text/javascript" src="../../static/assets/js/mobile/share.js?vId=160621" ></script>
+		<script type="text/javascript" src="../../static/assets/js/mobile/me.js?vId=160621" ></script>
+		<script type="text/javascript">	
+			loading();
+			$(document).ready(function() {
+				setTimeout(function(){
+					loadingHide();
+					p.init();
+				},500);
+			});
+		</script>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>券宝</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="券宝">
+		<meta name="keywords" content="券宝">
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../static/assets/css/mobile/common.css?vId=160630" />
+		<link rel="stylesheet" href="../../static/assets/css/mobile/index.css?vId=160923" />
+	</head>
+	<body>
+		<div class="out-wrap">
+			<!-- Start -->
+			<div id="slideBox" class="slideBox">
+				<div class="bd">
+					<ul class="j_banners"></ul>
+				</div>
+				<div class="hd">
+					<ul></ul>
+				</div>
+			</div>
+			<!-- End -->
+			<div class="pBottom25">
+				<ul class="userlist j_shops"></ul>
+				<div class="thinner-border"></div>
+				<div class="more j_loadmore"><img class="loading-img" src="../../static/assets/images/mobile/loading.jpg"><span>正在加载...</span></div>
+			</div>
+			<ul class="page-nav" id="page-nav"></ul>
+		</div>
+		<script type="text/javascript" src="../../static/assets/js/mobile/share.js?vId=160630" ></script>
+		<script type="text/javascript" src="../../static/assets/js/mobile/index.js?vId=160829" ></script>
+		<script type="text/javascript">	
+			loading();
+			$(document).ready(function() {
+				setTimeout(function(){
+					loadingHide();
+					p.init();
+				},500);
+			});
+		</script>
+	</body>
+</html>
