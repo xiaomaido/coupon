@@ -106,6 +106,8 @@ function resetPwdBySmsCode(smscode,newpwd){
 		fillAlert('重置密码成功!');
 		waitRedirect('../signin/',1000);
   	}, function (error) {
+		$j_login_btn.removeClass('disable');
+		btnText($j_login_btn,'验证并重置',0);
 	  	fillAlert(errorEnum[error.code]['msg']);
   	});
 }
