@@ -249,7 +249,7 @@ var user = {
 };
 user.init = function(){
 	user.currentUser = AV.User.current();
-	reportPVUV();
+	// reportPVUV();
 };
 user.homepage = function(){
 	if(user.currentUser){
